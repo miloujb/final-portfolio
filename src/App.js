@@ -3,6 +3,7 @@ import { Router } from "@reach/router";
 import "./App.css";
 import HomePage from "./PageComponents/HomePage";
 import English from "./PageComponents/en";
+import French from "./PageComponents/fr";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Router>
           <HomePage path="/" />
           <English path="/en" />
+          <French path="/fr" />
         </Router>
       </body>
     </div>
