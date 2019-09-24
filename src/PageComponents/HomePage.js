@@ -9,7 +9,9 @@ const HomePage = () => {
         <h2>Developer | Linguist</h2>
         <h3>Please choose your language:</h3>
         <ul className="languagelist">
-          <li>EN</li>
+          <li>
+            <Link to="/en">EN</Link>
+          </li>
           <li>FR</li>
           <li>ES</li>
           <li>DE</li>
