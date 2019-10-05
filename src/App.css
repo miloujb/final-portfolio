@@ -10,3 +10,28 @@ ul {
   align-items: center;
   justify-content: space-evenly;
 }
+
+.intro {
+  text-align: center;
+  align-items: center;
+}
+
+.about {
+  text-align: center;
+  align-items: center;
+}
+
+.projects {
+  text-align: center;
+  align-items: center;
+}
+
+.tech {
+  text-align: center;
+  align-items: center;
+}
+
+.contact {
+  text-align: center;
+  align-items: center;
+}
