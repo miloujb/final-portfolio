@@ -15,8 +15,12 @@ const HomePage = () => {
           <li>
             <Link to="/fr">FR</Link>
           </li>
-          <li>ES</li>
-          <li>DE</li>
+          <li>
+            <Link to="/es">ES</Link>
+          </li>
+          <li>
+            <Link to="/de">DE</Link>
+          </li>
         </ul>
       </div>
     </>

@@ -11,7 +11,8 @@ const de = () => {
       <div class="tech">
         <h1>Technologiestack</h1>
       </div>
-      <div></div>
+      <div class = "projects"></div>
+      <div class="contact"></div>
     </>
   );
 };
