@@ -14,24 +14,34 @@ ul {
 .intro {
   text-align: center;
   align-items: center;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 .about {
   text-align: center;
   align-items: center;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 .projects {
   text-align: center;
   align-items: center;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 .tech {
   text-align: center;
   align-items: center;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 .contact {
   text-align: center;
   align-items: center;
+  margin-left: 30px;
+  margin-right: 30px;
 }

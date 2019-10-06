@@ -2,6 +2,7 @@ import React from "react";
 import About from "./about";
 import TechStack from "./TechStack";
 import Projects from "./Projects";
+import Contact from "./Contact";
 
 const en = () => {
   return (
@@ -14,12 +15,7 @@ const en = () => {
       <About />
       <TechStack />
       <Projects />
-
-      <div class="contact">
-        <h1>Contact Me</h1>
-        <p>Email: emilybaileycodes@gmail.com</p>
-        <p>Github: www.github.com/miloujb</p>
-      </div>
+      <Contact />
     </>
   );
 };
