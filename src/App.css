@@ -72,3 +72,14 @@ li {
   border-width: 5px;
   border-color: goldenrod;
 }
+
+.navbar {
+  background-color: goldenrod;
+}
+
+nav {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: right;
+}
