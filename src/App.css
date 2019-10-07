@@ -1,5 +1,5 @@
 .App {
-  background-color: gray;
+  background-color: lightgray;
 }
 
 .landing {
@@ -23,7 +23,7 @@ li {
 .intro {
   text-align: center;
   align-items: center;
-  background-color: gray;
+  background-color: lightgrey;
 }
 
 .intro-text {
@@ -36,7 +36,7 @@ li {
   align-items: center;
   margin-left: 30px;
   margin-right: 30px;
-  background-color: grey;
+  background-color: lightgray;
 }
 
 .projects {
@@ -44,7 +44,7 @@ li {
   align-items: center;
   margin-left: 30px;
   margin-right: 30px;
-  background-color: gray;
+  background-color: lightgray;
 }
 
 .tech {
@@ -52,7 +52,7 @@ li {
   align-items: center;
   margin-left: 30px;
   margin-right: 30px;
-  background-color: grey;
+  background-color: lightgrey;
 }
 
 .contact {
@@ -82,4 +82,17 @@ nav {
   display: flex;
   flex-direction: row;
   align-items: right;
+  justify-content: space-between;
+  color: black;
+}
+
+.techproj {
+  height: 120px;
+  width: 240px;
+}
+
+.desctext {
+  text-align: center;
+  margin-left: 30px;
+  margin-right: 30px;
 }
