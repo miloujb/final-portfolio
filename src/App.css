@@ -1,3 +1,7 @@
+.App {
+  background-color: gray;
+}
+
 .landing {
   text-align: center;
   align-items: center;
@@ -8,12 +12,16 @@ ul {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 .intro {
   text-align: center;
   align-items: center;
+  background-color: slategray;
+}
+
+.intro-text {
   margin-left: 30px;
   margin-right: 30px;
 }
@@ -23,6 +31,7 @@ ul {
   align-items: center;
   margin-left: 30px;
   margin-right: 30px;
+  background-color: lightgray;
 }
 
 .projects {
@@ -30,6 +39,7 @@ ul {
   align-items: center;
   margin-left: 30px;
   margin-right: 30px;
+  background-color: lightslategray;
 }
 
 .tech {
@@ -37,6 +47,7 @@ ul {
   align-items: center;
   margin-left: 30px;
   margin-right: 30px;
+  background-color: lightsteelblue;
 }
 
 .contact {
@@ -44,4 +55,16 @@ ul {
   align-items: center;
   margin-left: 30px;
   margin-right: 30px;
+  background-color: lightgoldenrodyellow;
+}
+
+.links {
+  justify-content: space-between;
+}
+
+.img {
+  height: 240px;
+  border-radius: 50%;
+  border-color: black;
+  border-width: 50px;
 }
