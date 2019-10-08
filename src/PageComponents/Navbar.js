@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-scroll";
 
-const Navbar = props => {
+const Navbar = () => {
   return (
     <header>
       <nav class="navbar">
@@ -20,16 +20,20 @@ const Navbar = props => {
                 About
               </Link>
             </li>
-            <Link
-              activeClass="active"
-              to="tech"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-            >
-              Tech
-            </Link>
+            <br />
+            <li>
+              <Link
+                activeClass="active"
+                to="tech"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                Tech
+              </Link>
+            </li>
+            <br />
             <li>
               <Link
                 activeClass="active"
@@ -42,6 +46,7 @@ const Navbar = props => {
                 Projects
               </Link>
             </li>
+            <br />
             <li>
               <Link
                 activeClass="active"
