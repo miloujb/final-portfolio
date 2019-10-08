@@ -17,7 +17,7 @@ const Navbar = () => {
                 offset={-70}
                 duration={500}
               >
-                About
+                || About |
               </Link>
             </li>
             <br />
@@ -30,7 +30,7 @@ const Navbar = () => {
                 offset={-70}
                 duration={500}
               >
-                Tech
+                | Tech |
               </Link>
             </li>
             <br />
@@ -43,7 +43,7 @@ const Navbar = () => {
                 offset={-70}
                 duration={500}
               >
-                Projects
+                | Projects |
               </Link>
             </li>
             <br />
@@ -56,7 +56,7 @@ const Navbar = () => {
                 offset={-70}
                 duration={500}
               >
-                Contact
+                | Contact ||
               </Link>
             </li>
           </ul>
